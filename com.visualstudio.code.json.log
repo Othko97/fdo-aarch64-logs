@@ -1,0 +1,3 @@
+Emptying app dir 'build'
+error: io.atom.electron.BaseApp/aarch64/stable not installed
+Failed to init: Unable to find app io.atom.electron.BaseApp version stable
