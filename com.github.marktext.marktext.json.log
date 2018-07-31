@@ -1,3 +1,24 @@
-Emptying app dir 'build'
-error: org.electronjs.Electron2.BaseApp/aarch64/stable not installed
-Failed to init: Unable to find app org.electronjs.Electron2.BaseApp version stable
+Downloading sources
+Fetching git repo https://github.com/marktext/marktext.git, ref refs/tags/v0.12.25
+Initializing build dir
+Committing stage init to cache
+Starting build of com.github.marktext.marktext
+========================================================================
+Building module marktext in /mnt/sd/flatpaks/com.github.marktext.marktext/.flatpak-builder/build/marktext-1
+========================================================================
+Note: checking out '746969e7053b4c633786bdd433dcef1d523fdf26'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 746969e... release: 0.12.25
+Running: chmod +x build-marktext.sh
+Running: chmod +x marktext_x86_64.AppImage
+chmod: cannot access 'marktext_x86_64.AppImage': No such file or directory
+Error: module marktext: Child process exited with code 1

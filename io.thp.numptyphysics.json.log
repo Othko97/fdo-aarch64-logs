@@ -31,11 +31,11 @@ Building module numptyphysics in /mnt/sd/flatpaks/io.thp.numptyphysics/.flatpak-
 	CXX	platform/sdl2/OsSDL2.o
 	CXX	platform/gl/GLRenderer.o
 	CXX	external/thp/thp_timestep.o
+	CXX	external/thp/thp_iterutils.o
 platform/gl/GLRenderer.cpp: In copy constructor ‘FloatArray::FloatArray(const FloatArray&)’:
 platform/gl/GLRenderer.cpp:58:22: warning: passing argument 1 to restrict-qualified parameter aliases with argument 2 [-Wrestrict]
          memcpy(this->data, data, size);
                 ~~~~~~^~~~  ~~~~
-	CXX	external/thp/thp_iterutils.o
 	CXX	external/thp/thp_format.o
 	CXX	external/tinyxml2/tinyxml2.o
 	CXX	external/petals_log/petals_log.o
@@ -141,6 +141,11 @@ cp -rpv data //app/share/numptyphysics/
 'data/C50_gudger/Bullseye.npsvg' -> '//app/share/numptyphysics/data/C50_gudger/Bullseye.npsvg'
 'data/C50_gudger/Playground.npsvg' -> '//app/share/numptyphysics/data/C50_gudger/Playground.npsvg'
 'data/C50_gudger/TowerPower.npsvg' -> '//app/share/numptyphysics/data/C50_gudger/TowerPower.npsvg'
+'data/SourceSansPro-Light.ttf' -> '//app/share/numptyphysics/data/SourceSansPro-Light.ttf'
+'data/femkeklaver.ttf' -> '//app/share/numptyphysics/data/femkeklaver.ttf'
+'data/help_text.html' -> '//app/share/numptyphysics/data/help_text.html'
+'data/icons.png' -> '//app/share/numptyphysics/data/icons.png'
+'data/paper.png' -> '//app/share/numptyphysics/data/paper.png'
 'data/C50_guile' -> '//app/share/numptyphysics/data/C50_guile'
 'data/C50_guile/CatchMe.npsvg' -> '//app/share/numptyphysics/data/C50_guile/CatchMe.npsvg'
 'data/C50_guile/FlytoSun.npsvg' -> '//app/share/numptyphysics/data/C50_guile/FlytoSun.npsvg'
@@ -233,14 +238,9 @@ cp -rpv data //app/share/numptyphysics/
 'data/M00_Menus/Main.npsvg' -> '//app/share/numptyphysics/data/M00_Menus/Main.npsvg'
 'data/M00_Menus/Menju.npsvg' -> '//app/share/numptyphysics/data/M00_Menus/Menju.npsvg'
 'data/M00_Menus/MenjuX.npsvg' -> '//app/share/numptyphysics/data/M00_Menus/MenjuX.npsvg'
-'data/SourceSansPro-Light.ttf' -> '//app/share/numptyphysics/data/SourceSansPro-Light.ttf'
-'data/femkeklaver.ttf' -> '//app/share/numptyphysics/data/femkeklaver.ttf'
-'data/help_text.html' -> '//app/share/numptyphysics/data/help_text.html'
 'data/i18n' -> '//app/share/numptyphysics/data/i18n'
 'data/i18n/de' -> '//app/share/numptyphysics/data/i18n/de'
 'data/i18n/ru' -> '//app/share/numptyphysics/data/i18n/ru'
-'data/icons.png' -> '//app/share/numptyphysics/data/icons.png'
-'data/paper.png' -> '//app/share/numptyphysics/data/paper.png'
 compressing debuginfo in: /mnt/sd/flatpaks/io.thp.numptyphysics/.flatpak-builder/rofiles/rofiles-u5Vk1I/files/bin/numptyphysics
 processing: /mnt/sd/flatpaks/io.thp.numptyphysics/.flatpak-builder/rofiles/rofiles-u5Vk1I/files/bin/numptyphysics
 [28] .debug_aranges compressed -> .zdebug_aranges (11760 => 2698 22.94%)
@@ -274,17 +274,17 @@ Using numptyphysics as command
 Please review the exported files and the metadata
 Committing stage finish to cache
 Exporting io.thp.numptyphysics to repo
-Commit: 5df27041a8b49a45d4f9b4b66648a3eece15234592a40ae41c7047b85307a363
+Commit: c668485d4b71696c0fe2b66b6075ff3ca4729727e18ca341a597b2154ce6daab
 Metadata Total: 109
-Metadata Written: 4
+Metadata Written: 1
 Content Total: 133
-Content Written: 3
-Content Bytes Written: 501426 (501.4 kB)
+Content Written: 0
+Content Bytes Written: 0 (0 bytes)
 Exporting io.thp.numptyphysics.Debug to repo
-Commit: 5ffbf05df4a9a189302587e7b49d2b2509cf56be874b630c1d8ec3c51dc098a7
+Commit: eaac4d4020ff85e571af654de33d5906436295e156efd8846f0301a84fe88205
 Metadata Total: 49
-Metadata Written: 4
+Metadata Written: 1
 Content Total: 128
-Content Written: 2
-Content Bytes Written: 2943037 (2.9 MB)
+Content Written: 0
+Content Bytes Written: 0 (0 bytes)
 Pruning cache

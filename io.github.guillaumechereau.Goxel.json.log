@@ -1282,8 +1282,8 @@ Archive:  /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/dow
 -- Generating done
 -- Build files have been written to: /run/build/glfw/_flatpak_build
 [1/107] Building C object src/CMakeFiles/glfw.dir/init.c.o
-[2/107] Building C object src/CMakeFiles/glfw.dir/monitor.c.o
-[3/107] Building C object src/CMakeFiles/glfw.dir/context.c.o
+[2/107] Building C object src/CMakeFiles/glfw.dir/context.c.o
+[3/107] Building C object src/CMakeFiles/glfw.dir/monitor.c.o
 [4/107] Building C object src/CMakeFiles/glfw.dir/input.c.o
 [5/107] Building C object src/CMakeFiles/glfw.dir/vulkan.c.o
 [6/107] Building C object src/CMakeFiles/glfw.dir/x11_monitor.c.o
@@ -1300,26 +1300,26 @@ Archive:  /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/dow
              snprintf(path, sizeof(path), "%s/%s", dirname, entry->d_name);
              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 [12/107] Building C object src/CMakeFiles/glfw.dir/posix_tls.c.o
-[13/107] Building C object src/CMakeFiles/glfw.dir/glx_context.c.o
-[14/107] Building C object examples/CMakeFiles/wave.dir/wave.c.o
+[13/107] Building C object examples/CMakeFiles/wave.dir/wave.c.o
+[14/107] Building C object src/CMakeFiles/glfw.dir/glx_context.c.o
 [15/107] Building C object src/CMakeFiles/glfw.dir/egl_context.c.o
 [16/107] Building C object src/CMakeFiles/glfw.dir/x11_window.c.o
-[17/107] Linking C shared library src/libglfw.so.3.2
-[18/107] Creating library symlink src/libglfw.so.3 src/libglfw.so
-[19/107] Building C object examples/CMakeFiles/gears.dir/gears.c.o
+[17/107] Building C object examples/CMakeFiles/gears.dir/gears.c.o
+[18/107] Linking C shared library src/libglfw.so.3.2
+[19/107] Creating library symlink src/libglfw.so.3 src/libglfw.so
 [20/107] Building C object examples/CMakeFiles/boing.dir/boing.c.o
 [21/107] Building C object examples/CMakeFiles/heightmap.dir/heightmap.c.o
 [22/107] Building C object examples/CMakeFiles/wave.dir/__/deps/glad.c.o
-[23/107] Linking C executable examples/wave
-[24/107] Building C object examples/CMakeFiles/gears.dir/__/deps/glad.c.o
+[23/107] Building C object examples/CMakeFiles/gears.dir/__/deps/glad.c.o
+[24/107] Linking C executable examples/wave
 [25/107] Linking C executable examples/gears
 [26/107] Building C object examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o
-[27/107] Building C object examples/CMakeFiles/boing.dir/__/deps/glad.c.o
-[28/107] Building C object examples/CMakeFiles/particles.dir/__/deps/getopt.c.o
+[27/107] Building C object examples/CMakeFiles/particles.dir/__/deps/getopt.c.o
+[28/107] Building C object examples/CMakeFiles/boing.dir/__/deps/glad.c.o
 [29/107] Linking C executable examples/boing
 [30/107] Building C object examples/CMakeFiles/particles.dir/particles.c.o
-[31/107] Building C object examples/CMakeFiles/heightmap.dir/__/deps/glad.c.o
-[32/107] Building C object examples/CMakeFiles/splitview.dir/splitview.c.o
+[31/107] Building C object examples/CMakeFiles/splitview.dir/splitview.c.o
+[32/107] Building C object examples/CMakeFiles/heightmap.dir/__/deps/glad.c.o
 [33/107] Linking C executable examples/heightmap
 [34/107] Building C object examples/CMakeFiles/simple.dir/simple.c.o
 [35/107] Building C object tests/CMakeFiles/title.dir/title.c.o
@@ -1337,12 +1337,12 @@ Archive:  /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/dow
 [47/107] Building C object tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o
 [48/107] Building C object tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o
 [49/107] Building C object tests/CMakeFiles/cursor.dir/__/deps/glad.c.o
-[50/107] Building C object tests/CMakeFiles/threads.dir/threads.c.o
-[51/107] Linking C executable tests/cursor
+[50/107] Linking C executable tests/cursor
+[51/107] Building C object tests/CMakeFiles/threads.dir/threads.c.o
 [52/107] Building C object tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.o
 [53/107] Building C object tests/CMakeFiles/msaa.dir/__/deps/glad.c.o
-[54/107] Building C object tests/CMakeFiles/clipboard.dir/clipboard.c.o
-[55/107] Linking C executable tests/msaa
+[54/107] Linking C executable tests/msaa
+[55/107] Building C object tests/CMakeFiles/clipboard.dir/clipboard.c.o
 [56/107] Building C object tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.o
 [57/107] Building C object tests/CMakeFiles/monitors.dir/monitors.c.o
 [58/107] Building C object tests/CMakeFiles/monitors.dir/__/deps/getopt.c.o
@@ -1352,15 +1352,15 @@ Archive:  /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/dow
 [62/107] Building C object tests/CMakeFiles/threads.dir/__/deps/glad.c.o
 [63/107] Linking C executable tests/threads
 [64/107] Building C object tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o
-[65/107] Building C object tests/CMakeFiles/gamma.dir/gamma.c.o
-[66/107] Building C object tests/CMakeFiles/clipboard.dir/__/deps/glad.c.o
+[65/107] Building C object tests/CMakeFiles/clipboard.dir/__/deps/glad.c.o
+[66/107] Building C object tests/CMakeFiles/gamma.dir/gamma.c.o
 [67/107] Linking C executable tests/clipboard
 [68/107] Building C object tests/CMakeFiles/gamma.dir/__/deps/getopt.c.o
 [69/107] Building C object tests/CMakeFiles/monitors.dir/__/deps/glad.c.o
 [70/107] Linking C executable tests/monitors
 [71/107] Building C object tests/CMakeFiles/events.dir/events.c.o
-[72/107] Building C object tests/CMakeFiles/iconify.dir/__/deps/glad.c.o
-[73/107] Building C object tests/CMakeFiles/events.dir/__/deps/getopt.c.o
+[72/107] Building C object tests/CMakeFiles/events.dir/__/deps/getopt.c.o
+[73/107] Building C object tests/CMakeFiles/iconify.dir/__/deps/glad.c.o
 [74/107] Linking C executable tests/iconify
 [75/107] Building C object tests/CMakeFiles/icon.dir/icon.c.o
 [76/107] Building C object tests/CMakeFiles/vulkan.dir/vulkan.c.o
@@ -1371,23 +1371,23 @@ Archive:  /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/dow
 [81/107] Building C object tests/CMakeFiles/joysticks.dir/joysticks.c.o
 [82/107] Building C object tests/CMakeFiles/events.dir/__/deps/glad.c.o
 [83/107] Linking C executable tests/events
-[84/107] Building C object tests/CMakeFiles/reopen.dir/reopen.c.o
-[85/107] Building C object tests/CMakeFiles/icon.dir/__/deps/glad.c.o
-[86/107] Building C object tests/CMakeFiles/sharing.dir/__/deps/glad.c.o
-[87/107] Linking C executable tests/icon
-[88/107] Linking C executable tests/sharing
-[89/107] Building C object tests/CMakeFiles/timeout.dir/timeout.c.o
-[90/107] Building C object tests/CMakeFiles/joysticks.dir/__/deps/glad.c.o
-[91/107] Building C object tests/CMakeFiles/windows.dir/windows.c.o
-[92/107] Linking C executable tests/joysticks
-[93/107] Building C object tests/CMakeFiles/windows.dir/__/deps/getopt.c.o
+[84/107] Building C object tests/CMakeFiles/icon.dir/__/deps/glad.c.o
+[85/107] Building C object tests/CMakeFiles/reopen.dir/reopen.c.o
+[86/107] Linking C executable tests/icon
+[87/107] Building C object tests/CMakeFiles/sharing.dir/__/deps/glad.c.o
+[88/107] Building C object tests/CMakeFiles/timeout.dir/timeout.c.o
+[89/107] Linking C executable tests/sharing
+[90/107] Building C object tests/CMakeFiles/windows.dir/windows.c.o
+[91/107] Building C object tests/CMakeFiles/windows.dir/__/deps/getopt.c.o
+[92/107] Building C object tests/CMakeFiles/joysticks.dir/__/deps/glad.c.o
+[93/107] Linking C executable tests/joysticks
 [94/107] Building C object tests/CMakeFiles/empty.dir/empty.c.o
 [95/107] Building C object tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o
 [96/107] Building C object tests/CMakeFiles/reopen.dir/__/deps/glad.c.o
 [97/107] Linking C executable tests/reopen
 [98/107] Building C object tests/CMakeFiles/timeout.dir/__/deps/glad.c.o
-[99/107] Linking C executable tests/timeout
-[100/107] Building C object tests/CMakeFiles/tearing.dir/tearing.c.o
+[99/107] Building C object tests/CMakeFiles/tearing.dir/tearing.c.o
+[100/107] Linking C executable tests/timeout
 [101/107] Building C object tests/CMakeFiles/tearing.dir/__/deps/getopt.c.o
 [102/107] Building C object tests/CMakeFiles/windows.dir/__/deps/glad.c.o
 [103/107] Linking C executable tests/windows
@@ -1421,7 +1421,7 @@ processing: /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/r
 stripping /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/rofiles/rofiles-kc7qb9/files/lib/libglfw.so.3.2 to /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/rofiles/rofiles-kc7qb9/files/lib/debug/lib/libglfw.so.3.2.debug
 Committing stage build-glfw to cache
 ========================================================================
-Building module goxel in /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/build/goxel-5
+Building module goxel in /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/build/goxel-6
 ========================================================================
 Archive:  /mnt/sd/flatpaks/io.github.guillaumechereau.Goxel/.flatpak-builder/downloads/6106f7debea0b39aea1fd6711770d9ee315a798fdc59fe9ada2b92b44e147d0d/735080bc352f4f388b76d6af30cac696cb4800ed.zip
 735080bc352f4f388b76d6af30cac696cb4800ed

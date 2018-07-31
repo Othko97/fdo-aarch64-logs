@@ -1,3 +1,11 @@
-Emptying app dir 'build'
-error: io.atom.electron.BaseApp/aarch64/stable not installed
-Failed to init: Unable to find app io.atom.electron.BaseApp version stable
+Downloading sources
+Initializing build dir
+Committing stage init to cache
+Starting build of com.discordapp.Discord
+fuse: mountpoint is not empty
+fuse: if you are sure this is safe, use the 'nonempty' mount option
+========================================================================
+Building module libcxx in /mnt/sd/flatpaks/com.discordapp.Discord/.flatpak-builder/build/libcxx-1
+========================================================================
+error: runtime/org.freedesktop.Sdk/x86_64/unstable not installed
+Error: module libcxx: Child process exited with code 1

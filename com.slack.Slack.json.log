@@ -1,3 +1,59 @@
-Emptying app dir 'build'
-error: org.electronjs.Electron2.BaseApp/aarch64/stable not installed
-Failed to init: Unable to find app org.electronjs.Electron2.BaseApp version stable
+Downloading sources
+Initializing build dir
+Committing stage init to cache
+Starting build of com.slack.Slack
+========================================================================
+Building module slack in /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/build/slack-1
+========================================================================
+Running: install apply_extra /app/bin
+Running: install slack.sh /app/bin/slack
+Running: install -Dm644 com.slack.Slack.appdata.xml /app/share/appdata/com.slack.Slack.appdata.xml
+Running: cp /usr/bin/ar /app/bin
+Running: ARCH_TRIPLE=$(gcc --print-multiarch) && cp /usr/lib/${ARCH_TRIPLE}/libbfd-*.so /app/lib
+compressing debuginfo in: /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/rofiles/rofiles-BB2etO/files/bin/ar
+processing: /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/rofiles/rofiles-BB2etO/files/bin/ar
+[25] .debug_aranges compressed -> .zdebug_aranges (928 => 269 28.99%)
+[26] .debug_info compressed -> .zdebug_info (295298 => 158947 53.83%)
+[27] .debug_abbrev compressed -> .zdebug_abbrev (13689 => 2614 19.10%)
+[28] .debug_line compressed -> .zdebug_line (32359 => 13227 40.88%)
+[29] .debug_str compressed -> .zdebug_str (75074 => 15837 21.10%)
+[30] .debug_loc compressed -> .zdebug_loc (55301 => 11276 20.39%)
+[31] .debug_ranges compressed -> .zdebug_ranges (8864 => 1662 18.75%)
+[34] Updating section string table
+stripping /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/rofiles/rofiles-BB2etO/files/bin/ar to /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/rofiles/rofiles-BB2etO/files/lib/debug/bin/ar.debug
+compressing debuginfo in: /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/rofiles/rofiles-BB2etO/files/lib/libbfd-2.31.so
+processing: /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/rofiles/rofiles-BB2etO/files/lib/libbfd-2.31.so
+[24] .debug_aranges compressed -> .zdebug_aranges (3984 => 953 23.92%)
+[25] .debug_info compressed -> .zdebug_info (2725552 => 1511229 55.45%)
+[26] .debug_abbrev compressed -> .zdebug_abbrev (89912 => 12405 13.80%)
+[27] .debug_line compressed -> .zdebug_line (532495 => 235241 44.18%)
+[28] .debug_str compressed -> .zdebug_str (201047 => 50603 25.17%)
+[29] .debug_loc compressed -> .zdebug_loc (1721374 => 335204 19.47%)
+[30] .debug_ranges compressed -> .zdebug_ranges (184640 => 32539 17.62%)
+[33] Updating section string table
+stripping /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/rofiles/rofiles-BB2etO/files/lib/libbfd-2.31.so to /mnt/sd/flatpaks/com.slack.Slack/.flatpak-builder/rofiles/rofiles-BB2etO/files/lib/debug/lib/libbfd-2.31.so.debug
+Committing stage build-slack to cache
+Cleaning up
+Running appstream-compose
+Processing application com.slack.Slack
+Saving AppStream /app/share/app-info/xmls/com.slack.Slack.xml.gz
+Done!
+Committing stage cleanup to cache
+Finishing app
+Please review the exported files and the metadata
+Committing stage finish to cache
+Exporting com.slack.Slack to repo
+Commit: b5280745b15c9b9507672091180a3d79d5cc94faa020b2535aa813d85b6976e6
+Metadata Total: 315
+Metadata Written: 9
+Content Total: 126
+Content Written: 28
+Content Bytes Written: 5741101 (5.7 MB)
+Exporting com.slack.Slack.Debug to repo
+Commit: 282a73f23b513c808c1051deb096a95accd2dd91e2a01cee004ae2274068f580
+Metadata Total: 11
+Metadata Written: 5
+Content Total: 3
+Content Written: 3
+Content Bytes Written: 2514571 (2.5 MB)
+Pruning cache

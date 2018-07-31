@@ -66,18 +66,18 @@ HEAD is now at 5092c7e... Fixed copy&paste issue: Pingus -> Construo
 [11/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_file_button.cpp.o
 [12/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_directory_button.cpp.o
 [13/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_label.cpp.o
-[14/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_manager.cpp.o
-[15/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_new_file_button.cpp.o
-[16/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_window.cpp.o
-[17/53] Building CXX object CMakeFiles/libconstruo.dir/src/keep_alive_mgr.cpp.o
-[18/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_file_manager.cpp.o
+[14/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_new_file_button.cpp.o
+[15/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_manager.cpp.o
+[16/53] Building CXX object CMakeFiles/libconstruo.dir/src/keep_alive_mgr.cpp.o
+[17/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_file_manager.cpp.o
+[18/53] Building CXX object CMakeFiles/libconstruo.dir/src/gui_window.cpp.o
 [19/53] Building CXX object CMakeFiles/libconstruo.dir/src/input_context.cpp.o
 [20/53] Building CXX object CMakeFiles/libconstruo.dir/src/lisp_reader.cpp.o
 [21/53] Building CXX object CMakeFiles/libconstruo.dir/src/lisp_writer.cpp.o
 [22/53] Building CXX object CMakeFiles/libconstruo.dir/src/load_gui_manager.cpp.o
 [23/53] Building CXX object CMakeFiles/libconstruo.dir/src/particle.cpp.o
-[24/53] Building CXX object CMakeFiles/libconstruo.dir/src/particle_factory.cpp.o
-[25/53] Building CXX object CMakeFiles/libconstruo.dir/src/path_manager.cpp.o
+[24/53] Building CXX object CMakeFiles/libconstruo.dir/src/path_manager.cpp.o
+[25/53] Building CXX object CMakeFiles/libconstruo.dir/src/particle_factory.cpp.o
 [26/53] Building CXX object CMakeFiles/libconstruo.dir/src/rect_collider.cpp.o
 [27/53] Building CXX object CMakeFiles/libconstruo.dir/src/screen_manager.cpp.o
 [28/53] Building CXX object CMakeFiles/libconstruo.dir/src/root_graphic_context.cpp.o
@@ -91,20 +91,20 @@ HEAD is now at 5092c7e... Fixed copy&paste issue: Pingus -> Construo
 [36/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_collider_tool.cpp.o
 [37/53] Building CXX object CMakeFiles/libconstruo.dir/src/world.cpp.o
 [38/53] Building CXX object CMakeFiles/libconstruo.dir/src/world_gui_manager.cpp.o
-[39/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_component.cpp.o
+[39/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_insert_tool.cpp.o
 [40/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_tool.cpp.o
-[41/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_insert_tool.cpp.o
-[42/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_zoom_tool.cpp.o
-[43/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_select_tool.cpp.o
+[41/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_component.cpp.o
+[42/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_select_tool.cpp.o
+[43/53] Building CXX object CMakeFiles/libconstruo.dir/src/worldview_zoom_tool.cpp.o
 [44/53] Building CXX object CMakeFiles/libconstruo.dir/src/zoom_graphic_context.cpp.o
 [45/53] Building CXX object CMakeFiles/libconstruo.dir/src/unix_system.cpp.o
-[46/53] Building C object CMakeFiles/lispreader.dir/external/lispreader-0.5/lispreader.c.o
-[47/53] Building CXX object CMakeFiles/construo.x11.dir/src/construo_main.cpp.o
+[46/53] Building CXX object CMakeFiles/construo.x11.dir/src/construo_main.cpp.o
+[47/53] Building C object CMakeFiles/lispreader.dir/external/lispreader-0.5/lispreader.c.o
 [48/53] Building C object CMakeFiles/lispreader.dir/external/lispreader-0.5/pools.c.o
 [49/53] Linking CXX static library libconstruo.a
 [50/53] Building C object CMakeFiles/lispreader.dir/external/lispreader-0.5/allocator.c.o
-[51/53] Linking C static library liblispreader.a
-[52/53] Building CXX object CMakeFiles/construo.x11.dir/src/x11_display.cpp.o
+[51/53] Building CXX object CMakeFiles/construo.x11.dir/src/x11_display.cpp.o
+[52/53] Linking C static library liblispreader.a
 [53/53] Linking CXX executable construo.x11
 [0/1] Install the project...
 -- Install configuration: "Release"
@@ -241,17 +241,17 @@ Committing stage finish to cache
 Exporting io.gitlab.construo.construo to repo
 WARNING: Failed to validate desktop file /mnt/sd/flatpaks/io.gitlab.construo.construo/build/export/share/applications/io.gitlab.construo.construo.desktop: /mnt/sd/flatpaks/io.gitlab.construo.construo/build/export/share/applications/io.gitlab.construo.construo.desktop: error: value "application/x-construo" for string list key "MimeType" in group "Desktop Entry" does not have a semicolon (';') as trailing character
 
-Commit: 98e34105f1137e86ae110eb81d8d188075144f4287f2a7bc47ef47624fd362ae
+Commit: c00530eaf54cb14ffe493ab7e1e77858ae9fe7cdb2f479296792a4e1d5b0143d
 Metadata Total: 63
-Metadata Written: 4
+Metadata Written: 1
 Content Total: 103
-Content Written: 3
-Content Bytes Written: 321944 (321.9 kB)
+Content Written: 0
+Content Bytes Written: 0 (0 bytes)
 Exporting io.gitlab.construo.construo.Debug to repo
-Commit: be436be2d57cd283ff26e52ed2f4a2c0719707a8f1340d9b468fb3c17356a5af
+Commit: 5c26abddcf0255edce7baa8c11a077883cf43456f9343744c86835563f19eb0d
 Metadata Total: 19
-Metadata Written: 4
+Metadata Written: 1
 Content Total: 115
-Content Written: 2
-Content Bytes Written: 1978859 (2.0 MB)
+Content Written: 0
+Content Bytes Written: 0 (0 bytes)
 Pruning cache

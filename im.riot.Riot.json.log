@@ -1,3 +1,10 @@
-Emptying app dir 'build'
-error: io.atom.electron.BaseApp/aarch64/stable not installed
-Failed to init: Unable to find app io.atom.electron.BaseApp version stable
+Downloading sources
+Initializing build dir
+Committing stage init to cache
+Starting build of im.riot.Riot
+========================================================================
+Building module riot in /mnt/sd/flatpaks/im.riot.Riot/.flatpak-builder/build/riot-1
+========================================================================
+Running: ar x riot-web_*.deb
+ar: riot-web_*.deb: No such file or directory
+Error: module riot: Child process exited with code 9
